@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Percentage Calculator</title>
+    <style>
+        /* CSS styles for the calculator */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        .input-container {
+            margin: 20px auto;
+        }
+        
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Percentage Calculator</h1>
+    <div class="input-container">
+        <input type="number" id="value" placeholder="Enter value">
+        <input type="number" id="percentage" placeholder="Enter percentage">
+        <button onclick="calculate()">Calculate</button>
+    </div>
+    <h2 id="result"></h2>
+    
+    <script src="script.js"></script>
+</body>
+</html>
